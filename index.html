@@ -1,0 +1,579 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="preload" as="image" href="/assets/vip-background-current-DwSKTGUa.webp" fetchpriority="high">
+<link rel="preload" as="image" href="/assets/vip-profile-upload-Cxn0VvN6.webp" fetchpriority="high">
+<title>Exclusivo</title>
+<meta name="theme-color" content="#0a0612">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="Vem me conhecer de verdade!🍒">
+<meta name="author" content="Lovable">
+<meta property="og:title" content="Exclusivo">
+<meta property="og:description" content="Vem me conhecer de verdade!🍒">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@Lovable">
+<meta name="twitter:title" content="Exclusivo">
+<meta name="twitter:description" content="Vem me conhecer de verdade!🍒">
+<meta property="og:image" content="images/social-1777568789424-quero_que_a_mulher_da_202604281523.webp">
+<meta name="twitter:image" content="https://storage.googleapis.com/gpt-engineer-file-uploads/2FwgSOu1cWgXKNV8OYCwfPUPZGB3/social-images/social-1777568789424-quero_que_a_mulher_da_202604281523.webp">
+<link rel="modulepreload" href="/assets/main-ceCcH0b8.js">
+<link rel="modulepreload" href="/assets/index-BAXhFGXg.js">
+<link rel="stylesheet" href="css/styles-CL2913_j.css">
+<style>
+	@font-face {
+		font-family: 'CameraPlainVariable';
+		src: url('fonts/CameraPlainVariable.woff2') format('woff2');
+		font-weight: 100 900;
+		font-style: normal;
+		font-display: swap;
+	}
+
+	#lovable-badge {
+		--badge-bg: #1b1b1b;
+		--badge-text: #c5c1b9;
+		--badge-text-hover: #dcdad5;
+		--badge-radius: 6px;
+		--badge-padding: 8px;
+		--badge-gap: 6px;
+		--badge-shadow: 
+			0 0 0 1px rgba(0, 0, 0, 0.88),
+			0 1px 0 0 rgba(0, 0, 0, 0.04),
+			0 2px 2px -1px rgba(0, 0, 0, 0.08),
+			0 4px 4px -2px rgba(0, 0, 0, 0.08),
+			0 8px 8px -4px rgba(0, 0, 0, 0.08),
+			0 16px 16px -8px rgba(0, 0, 0, 0.08);
+		--badge-transition-duration: 0.2s;
+		--badge-transition-easing: cubic-bezier(0.16, 1, 0.32, 1);
+		--focus-color: #575ECF;
+		--focus-offset: 2px;
+		--focus-width: 2px;
+		
+		position: fixed;
+		bottom: 12px;
+		right: 12px;
+		height: 24px;
+		display: flex;
+		align-items: center;
+		z-index: 1000000;
+		background-color: var(--badge-bg);
+		color: var(--badge-text);
+		border-radius: var(--badge-radius);
+		box-shadow: var(--badge-shadow);
+		font-size: 12px;
+		font-family: CameraPlainVariable, "CameraPlainVariable Fallback", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+		font-weight: 400 !important;
+		text-transform: none !important;
+		font-feature-settings: normal !important;
+		transform: translateZ(0);
+		will-change: transform, opacity;
+	}
+
+	#lovable-badge-cta {
+		display: flex;
+		align-items: center;
+		gap: var(--badge-gap);
+		padding: 0 var(--badge-padding);
+		height: 100%;
+		color: inherit;
+		text-decoration: none;
+		white-space: nowrap;
+		border-radius: var(--badge-radius) 0 0 var(--badge-radius);
+		transition: 
+			background-color var(--badge-transition-duration) ease,
+			color var(--badge-transition-duration) ease,
+			transform 0.1s ease;
+	}
+
+	#lovable-badge-cta:hover {
+		background: rgba(255, 255, 255, 0.04);
+		color: var(--badge-text-hover);
+	}
+
+	#lovable-badge-cta:active {
+		transform: scale(0.98);
+	}
+
+	#lovable-badge-cta:focus {
+		outline: none;
+	}
+
+	#lovable-badge-cta:focus-visible {
+		outline: var(--focus-width) solid var(--focus-color);
+		outline-offset: var(--focus-offset);
+		z-index: 1;
+	}
+
+	#lovable-badge-text {
+		line-height: 1;
+	}
+
+	#lovable-badge-divider {
+		width: 1px;
+		height: 24px;
+		background-color: rgba(255, 255, 255, 0.04);
+		flex-shrink: 0;
+	}
+
+	#lovable-badge-close {
+		width: 24px;
+		height: 24px;
+		min-width: 24px;
+		min-height: 24px;
+		cursor: pointer;
+		background: none;
+		border: none;
+		padding: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 0 var(--badge-radius) var(--badge-radius) 0;
+		flex-shrink: 0;
+		transition: 
+			background-color var(--badge-transition-duration) ease,
+			transform 0.1s ease;
+	}
+
+	#lovable-badge-close:hover {
+		background: rgba(255, 255, 255, 0.04);
+	}
+
+	#lovable-badge-close:active {
+		transform: scale(0.92);
+	}
+
+	#lovable-badge-close:focus {
+		outline: none;
+	}
+
+	#lovable-badge-close:focus-visible {
+		outline: var(--focus-width) solid var(--focus-color);
+		outline-offset: calc(var(--focus-offset) * -1);
+		z-index: 1;
+	}
+
+	#lovable-badge-close svg path {
+		fill: var(--badge-text);
+		transition: fill var(--badge-transition-duration) ease;
+	}
+
+	#lovable-badge-close:hover svg path {
+		fill: var(--badge-text-hover);
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		#lovable-badge-cta,
+		#lovable-badge-close,
+		#lovable-badge-close svg path {
+			transition: none;
+		}
+		
+		#lovable-badge-cta:active,
+		#lovable-badge-close:active {
+			transform: none;
+		}
+	}
+
+	@media (prefers-contrast: high) {
+		#lovable-badge {
+			--badge-bg: #000;
+			--badge-text: #fff;
+			--badge-text-hover: #fff;
+			border: 2px solid currentColor;
+		}
+		
+		#lovable-badge-cta:focus-visible,
+		#lovable-badge-close:focus-visible {
+			outline-width: 3px;
+		}
+	}
+</style>
+<script defer="" src="js/~flock.js" data-proxy-url="/~api/analytics">
+</script>
+</head>
+<body>
+<!--$-->
+<main class="relative isolate min-h-screen overflow-x-hidden bg-background text-foreground">
+<img class="vip-fixed-wallpaper" src="images/vip-background-current-DwSKTGUa.webp" alt="" aria-hidden="true" fetchpriority="high" decoding="async">
+<div class="vip-fixed-wallpaper-overlay" aria-hidden="true">
+</div>
+<div class="pointer-events-none fixed left-1/2 top-3 z-40 w-[calc(100%-32px)] max-w-[398px] -translate-x-1/2">
+<div class="vip-toast animate-vip-toast">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check h-4 w-4 shrink-0 text-online" aria-hidden="true">
+<circle cx="12" cy="12" r="10">
+</circle>
+<path d="m9 12 2 2 4-4">
+</path>
+</svg>
+<span>André acabou de garantir o acesso VIP!</span>
+</div>
+</div>
+<div class="vip-image-shell relative z-10 mx-auto min-h-screen max-w-[430px] overflow-hidden pb-24 shadow-mobile-shell">
+<div class="relative z-10">
+<div data-debug-section="hero">
+<section class="relative min-h-[720px] overflow-hidden px-4 pb-8 pt-24 text-center">
+<div class="absolute inset-0 bg-vip-hero-overlay">
+</div>
+<div class="relative z-10 mx-auto flex min-h-[610px] max-w-[398px] flex-col justify-end">
+<p class="mb-3 text-xs font-black uppercase tracking-[0.24em] text-pink-soft drop-shadow-vip">Acesso privado +18</p>
+<h1 class="text-[1.95rem] font-black uppercase leading-[0.92] text-foreground drop-shadow-vip sm:text-[2.2rem]">Tudo que o Instagram não me deixa te mostrar você vê aqui 😈</h1>
+<p class="mt-4 text-[1.35rem] font-black uppercase leading-none text-pink-neon drop-shadow-neon">Sem nenhuma censura</p>
+</div>
+</section>
+</div>
+<div data-debug-section="profile">
+<section class="px-4">
+<div class="vip-card -mt-10 p-5 text-center animate-vip-fade-up">
+<div class="relative mx-auto mb-4 h-24 w-24">
+<img src="images/vip-profile-upload-Cxn0VvN6.webp" alt="Avatar de Beatriz Silva" width="192" height="192" loading="eager" fetchpriority="high" decoding="async" class="h-full w-full rounded-full border-4 border-pink-neon object-cover shadow-neon">
+<span class="absolute bottom-2 right-1 h-5 w-5 rounded-full border-[3px] border-vip-card bg-online shadow-online">
+</span>
+</div>
+<div class="mb-2 inline-flex items-center rounded-full border border-online/40 bg-online/10 px-3 py-1 text-[0.68rem] font-black uppercase text-online">🟢 Online</div>
+<h2 class="text-xl font-black uppercase leading-tight text-foreground">Alice stone 19 </h2>
+<p class="vip-pink-glow mt-2 animate-vip-soft-pulse rounded-2xl px-3 py-2 text-sm font-bold leading-relaxed text-foreground">Criei esse VIP sem censura, para da mais atenção pra você</p>
+<div class="mt-5 grid gap-2 text-left text-sm font-bold text-foreground">
+<div class="rounded-2xl bg-vip-card-soft px-4 py-3 shadow-inner-soft">🔥 Conteúdos exclusivos sem censura</div>
+<div class="rounded-2xl bg-vip-card-soft px-4 py-3 shadow-inner-soft">🔥 Vídeo chamada sem limite de tempo</div>
+<div class="rounded-2xl bg-vip-card-soft px-4 py-3 shadow-inner-soft">📱 WhatsApp para nos conhecer</div>
+<div class="rounded-2xl bg-vip-card-soft px-4 py-3 shadow-inner-soft">🔥 Aqui você recebe ATENÇÃO que você merece 🎁</div>
+</div>
+</div>
+</section>
+</div>
+<div data-debug-section="previews">
+<section class="px-4 pt-8 animate-vip-fade-up">
+<h2 class="mb-4 text-center text-lg font-black uppercase leading-tight text-pink-neon drop-shadow-neon">Preview do que te espera no VIP:</h2>
+<div class="grid grid-cols-2 gap-3">
+<article class="vip-locked-card group">
+<img src="images/vip-preview-upload-1-3mYxUwjY.webp" alt="📸 Ensaio exclusivo" width="300" height="400" loading="lazy" decoding="async" class="absolute inset-0 h-full w-full scale-110 object-cover blur-[3px] transition duration-500 group-hover:scale-[1.16]">
+<div class="absolute inset-0 bg-vip-lock-overlay">
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lock-keyhole relative z-10 mb-2 h-7 w-7 text-gold drop-shadow-gold" aria-hidden="true">
+<circle cx="12" cy="16" r="1">
+</circle>
+<rect x="3" y="10" width="18" height="12" rx="2">
+</rect>
+<path d="M7 10V7a5 5 0 0 1 10 0v3">
+</path>
+</svg>
+<h3 class="relative z-10 text-center text-sm font-black uppercase leading-tight text-foreground">📸 Ensaio exclusivo</h3>
+<p class="relative z-10 mt-2 text-center text-[0.62rem] font-black uppercase tracking-wide text-muted-foreground">Clique para desbloquear</p>
+</article>
+<article class="vip-locked-card group">
+<img src="images/vip-preview-upload-2-DOLeQ_BW.webp" alt="🔥 Vídeo inédito" width="300" height="400" loading="lazy" decoding="async" class="absolute inset-0 h-full w-full scale-110 object-cover blur-[3px] transition duration-500 group-hover:scale-[1.16]">
+<div class="absolute inset-0 bg-vip-lock-overlay">
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lock-keyhole relative z-10 mb-2 h-7 w-7 text-gold drop-shadow-gold" aria-hidden="true">
+<circle cx="12" cy="16" r="1">
+</circle>
+<rect x="3" y="10" width="18" height="12" rx="2">
+</rect>
+<path d="M7 10V7a5 5 0 0 1 10 0v3">
+</path>
+</svg>
+<h3 class="relative z-10 text-center text-sm font-black uppercase leading-tight text-foreground">🔥 Vídeo inédito</h3>
+<p class="relative z-10 mt-2 text-center text-[0.62rem] font-black uppercase tracking-wide text-muted-foreground">Clique para desbloquear</p>
+</article>
+<article class="vip-locked-card group">
+<img src="images/vip-preview-upload-3-DJee6isa.webp" alt="🔞 Só no VIP" width="300" height="400" loading="lazy" decoding="async" class="absolute inset-0 h-full w-full scale-110 object-cover blur-[3px] transition duration-500 group-hover:scale-[1.16]">
+<div class="absolute inset-0 bg-vip-lock-overlay">
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lock-keyhole relative z-10 mb-2 h-7 w-7 text-gold drop-shadow-gold" aria-hidden="true">
+<circle cx="12" cy="16" r="1">
+</circle>
+<rect x="3" y="10" width="18" height="12" rx="2">
+</rect>
+<path d="M7 10V7a5 5 0 0 1 10 0v3">
+</path>
+</svg>
+<h3 class="relative z-10 text-center text-sm font-black uppercase leading-tight text-foreground">🔞 Só no VIP</h3>
+<p class="relative z-10 mt-2 text-center text-[0.62rem] font-black uppercase tracking-wide text-muted-foreground">Clique para desbloquear</p>
+</article>
+<article class="vip-locked-card group">
+<img src="data:image/webp;base64,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" alt="💎 Vai te surpreender" width="300" height="400" loading="lazy" decoding="async" class="absolute inset-0 h-full w-full scale-110 object-cover blur-[3px] transition duration-500 group-hover:scale-[1.16]">
+<div class="absolute inset-0 bg-vip-lock-overlay">
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lock-keyhole relative z-10 mb-2 h-7 w-7 text-gold drop-shadow-gold" aria-hidden="true">
+<circle cx="12" cy="16" r="1">
+</circle>
+<rect x="3" y="10" width="18" height="12" rx="2">
+</rect>
+<path d="M7 10V7a5 5 0 0 1 10 0v3">
+</path>
+</svg>
+<h3 class="relative z-10 text-center text-sm font-black uppercase leading-tight text-foreground">💎 Vai te surpreender</h3>
+<p class="relative z-10 mt-2 text-center text-[0.62rem] font-black uppercase tracking-wide text-muted-foreground">Clique para desbloquear</p>
+</article>
+</div>
+</section>
+</div>
+<div data-debug-section="testimonials">
+<section class="px-4 pt-8 animate-vip-fade-up">
+<div class="mb-4 flex items-center justify-between">
+<h2 class="text-lg font-black uppercase text-foreground">Comentários reais</h2>
+<span class="rounded-full bg-vip-card-soft px-3 py-1 text-xs font-black text-gold">★★★★★</span>
+</div>
+<div class="grid gap-3">
+<article class="vip-comment-card">
+<div class="flex gap-3">
+<img src="images/testimonial-man-older-1-dSkAhHDF.webp" alt="Foto de Rodrigo S." width="80" height="80" loading="lazy" decoding="async" class="h-10 w-10 shrink-0 rounded-full border border-pink-neon/40 object-cover shadow-neon-soft">
+<div class="min-w-0">
+<div class="flex flex-wrap items-center gap-2">
+<h3 class="text-sm font-black text-foreground">Rodrigo S.</h3>
+<span class="text-xs text-gold">★★★★★</span>
+</div>
+<p class="mt-1 text-sm font-medium leading-snug text-muted-foreground">“<!-- -->slc responde no chat msm ein recomendo dms 👏<!-- -->”</p>
+</div>
+</div>
+</article>
+<article class="vip-comment-card">
+<div class="flex gap-3">
+<img src="images/testimonial-man-young-1-C8-DefWK.webp" alt="Foto de Lucas M." width="80" height="80" loading="lazy" decoding="async" class="h-10 w-10 shrink-0 rounded-full border border-pink-neon/40 object-cover shadow-neon-soft">
+<div class="min-w-0">
+<div class="flex flex-wrap items-center gap-2">
+<h3 class="text-sm font-black text-foreground">Lucas M.</h3>
+<span class="text-xs text-gold">★★★★★</span>
+</div>
+<p class="mt-1 text-sm font-medium leading-snug text-muted-foreground">“<!-- -->Os vídeo no chat são mt bom juro kkk nem parece fake<!-- -->”</p>
+</div>
+</div>
+</article>
+<article class="vip-comment-card">
+<div class="flex gap-3">
+<img src="data:image/webp;base64,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" alt="Foto de Rafael C." width="80" height="80" loading="lazy" decoding="async" class="h-10 w-10 shrink-0 rounded-full border border-pink-neon/40 object-cover shadow-neon-soft">
+<div class="min-w-0">
+<div class="flex flex-wrap items-center gap-2">
+<h3 class="text-sm font-black text-foreground">Rafael C.</h3>
+<span class="text-xs text-gold">★★★★★</span>
+</div>
+<p class="mt-1 text-sm font-medium leading-snug text-muted-foreground">“<!-- -->entrei só pra ver e acabei ficando entrega mt mais doq promete 😅<!-- -->”</p>
+</div>
+</div>
+</article>
+<article class="vip-comment-card">
+<div class="flex gap-3">
+<img src="images/testimonial-man-older-2-Q9P2DQqf.webp" alt="Foto de Gustavo H." width="80" height="80" loading="lazy" decoding="async" class="h-10 w-10 shrink-0 rounded-full border border-pink-neon/40 object-cover shadow-neon-soft">
+<div class="min-w-0">
+<div class="flex flex-wrap items-center gap-2">
+<h3 class="text-sm font-black text-foreground">Gustavo H.</h3>
+<span class="text-xs text-gold">★★★★★</span>
+</div>
+<p class="mt-1 text-sm font-medium leading-snug text-muted-foreground">“<!-- -->Nossa quando comprei fiquei sem acreditar, todos os dias tem conteúdo novo e eu paguei só uma vez!<!-- -->”</p>
+</div>
+</div>
+</article>
+</div>
+</section>
+</div>
+<div data-debug-section="pricing">
+<section class="px-4 pt-8 animate-vip-fade-up">
+<div class="mb-4 text-center">
+<h2 class="text-2xl font-black uppercase leading-tight text-foreground">🔥 Escolha seu acesso VIP 🔥 </h2>
+<p class="mt-2 text-sm font-black text-gold">⚠️ Restam apenas 3 vagas com desconto ⚠️</p>
+<div class="mx-auto mt-3 w-fit rounded-full border border-pink-neon/60 bg-vip-countdown px-4 py-2 text-sm font-black uppercase text-pink-neon shadow-neon-soft">Acesso expira em: <!-- -->01:54</div>
+</div>
+<div class="grid gap-4">
+<article class="vip-price-card">
+<div class="vip-badge-pink">Acesso rápido</div>
+<h3 class="mt-4 text-2xl font-black uppercase text-foreground">Quinzenal</h3>
+<p class="mt-3 text-sm font-bold text-price-previous line-through">R$ 34,99</p>
+<div class="mt-1 text-[2.65rem] font-black leading-none text-price-current drop-shadow-vip">R$ 19,90</div>
+<div class="mt-5 grid gap-2 text-sm font-bold text-foreground">
+<div class="rounded-2xl bg-vip-card-soft px-4 py-3">✅ 30 vídeos</div>
+<div class="rounded-2xl bg-vip-card-soft px-4 py-3">✅ 10 fotos</div>
+<div class="rounded-2xl bg-vip-card-soft px-4 py-3">✅ Liberação automática</div>
+<div class="rounded-2xl bg-vip-card-soft px-4 py-3">✅ 15 dias de acesso</div>
+</div>
+<a href="https://SEU-LINK-QUINZENAL.com" class="vip-cta mt-5">🔒 Garantir meu acesso agora</a>
+</article>
+<article data-plan="mensal" class="vip-price-card vip-price-card-featured">
+<div class="vip-badge-gold">⭐ Mais escolhido</div>
+<h3 class="mt-4 text-2xl font-black uppercase text-foreground">Mensal</h3>
+<p class="mt-3 text-sm font-bold text-price-previous line-through">R$ 59,99</p>
+<div class="mt-1 text-[2.65rem] font-black leading-none text-price-current drop-shadow-vip">R$ 29,80</div>
+<div class="mt-5 grid gap-2 text-sm font-bold text-foreground">
+<div class="rounded-2xl bg-vip-card-soft px-4 py-3">✅ 30 dias de acesso completo</div>
+<div class="rounded-2xl bg-vip-card-soft px-4 py-3">✅ +100 conteúdos exclusivos</div>
+<div class="rounded-2xl bg-vip-card-soft px-4 py-3">✅ Atualizações semanais 🔥</div>
+<div class="rounded-2xl bg-vip-card-soft px-4 py-3">✅ Liberação automática após o pagamento ⚡</div>
+</div>
+<a href="https://SEU-LINK-MENSAL.com" class="vip-cta mt-5">🔒 Garantir meu acesso agora</a>
+</article>
+<article class="vip-price-card vip-price-card-featured">
+<div class="vip-badge-gold">Acesso completo</div>
+<h3 class="mt-4 text-2xl font-black uppercase text-foreground">Vitalício</h3>
+<p class="mt-3 text-sm font-bold text-price-previous line-through">R$ 99,99</p>
+<div class="mt-1 text-[2.65rem] font-black leading-none text-price-current drop-shadow-vip">R$ 59,70</div>
+<div class="mt-5 grid gap-2 text-sm font-bold text-foreground">
+<div class="rounded-2xl bg-vip-card-soft px-4 py-3">✅ +100 vídeos</div>
+<div class="rounded-2xl bg-vip-card-soft px-4 py-3">✅ Chamada semanal</div>
+<div class="rounded-2xl bg-vip-card-soft px-4 py-3">✅ Namoro virtual</div>
+<div class="rounded-2xl bg-vip-card-soft px-4 py-3">✅ Acesso vitalício</div>
+</div>
+<a href="https://SEU-LINK-VITALICIO.com" class="vip-cta mt-5">🔒 Garantir meu acesso agora</a>
+</article>
+</div>
+</section>
+</div>
+<div data-debug-section="guarantee">
+<section class="px-4 pt-8 animate-vip-fade-up">
+<div class="vip-card p-5">
+<div class="flex gap-4">
+<div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-online/10 text-online shadow-online">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check h-7 w-7" aria-hidden="true">
+<path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
+</path>
+<path d="m9 12 2 2 4-4">
+</path>
+</svg>
+</div>
+<div>
+<h2 class="text-lg font-black text-foreground">🛡️ Garantia Blindada: 7 Dias</h2>
+<p class="mt-2 text-sm font-medium leading-relaxed text-muted-foreground">Se não gostar do conteúdo, devolvo seu dinheiro sem perguntas. Acesso imediato e automático após o pagamento.</p>
+<p class="mt-3 text-sm font-black text-online">✅ Risco zero pra você. A decisão é sua.</p>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div data-debug-section="faq">
+<section class="px-4 pb-10 pt-8 animate-vip-fade-up">
+<h2 class="mb-4 text-center text-2xl font-black uppercase text-foreground">❓ Perguntas Frequentes</h2>
+<div class="grid gap-3">
+<article class="vip-faq-item">
+<button type="button" class="flex w-full items-center justify-between gap-3 text-left text-sm font-black text-foreground">
+<span>💳 O Pagamento é discreto?</span>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-5 w-5 shrink-0 text-pink-neon transition rotate-180" aria-hidden="true">
+<path d="m6 9 6 6 6-6">
+</path>
+</svg>
+</button>
+<p class="mt-3 text-sm font-medium leading-relaxed text-muted-foreground animate-vip-fade-in">Sim, totalmente discreto. A cobrança é feita com descrição neutra, garantindo sua privacidade.</p>
+</article>
+<article class="vip-faq-item">
+<button type="button" class="flex w-full items-center justify-between gap-3 text-left text-sm font-black text-foreground">
+<span>⚡ Como eu acesso o conteúdo?</span>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-5 w-5 shrink-0 text-pink-neon transition" aria-hidden="true">
+<path d="m6 9 6 6 6-6">
+</path>
+</svg>
+</button>
+</article>
+<article class="vip-faq-item">
+<button type="button" class="flex w-full items-center justify-between gap-3 text-left text-sm font-black text-foreground">
+<span>🔄 Com que frequência tem conteúdo novo?</span>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-5 w-5 shrink-0 text-pink-neon transition" aria-hidden="true">
+<path d="m6 9 6 6 6-6">
+</path>
+</svg>
+</button>
+</article>
+<article class="vip-faq-item">
+<button type="button" class="flex w-full items-center justify-between gap-3 text-left text-sm font-black text-foreground">
+<span>🔞 O conteúdo é +18?</span>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-5 w-5 shrink-0 text-pink-neon transition" aria-hidden="true">
+<path d="m6 9 6 6 6-6">
+</path>
+</svg>
+</button>
+</article>
+<article class="vip-faq-item">
+<button type="button" class="flex w-full items-center justify-between gap-3 text-left text-sm font-black text-foreground">
+<span>💰 Posso cancelar quando quiser?</span>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-5 w-5 shrink-0 text-pink-neon transition" aria-hidden="true">
+<path d="m6 9 6 6 6-6">
+</path>
+</svg>
+</button>
+</article>
+</div>
+</section>
+</div>
+</div>
+</div>
+<aside class="fixed bottom-3 left-1/2 z-50 w-[calc(100%-24px)] max-w-[398px] -translate-x-1/2 text-foreground">
+<div class="vip-debug-panel">
+<a href="https://SEU-LINK-PRINCIPAL.com" class="vip-bottom-access-button flex w-full items-center justify-between gap-4 px-4 py-4 text-left">
+<span class="flex items-center gap-2 text-[1.08rem] font-black uppercase leading-tight">✅QUERO ACESSAR AGORA🔑</span>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-6 w-6" aria-hidden="true">
+<path d="m6 9 6 6 6-6">
+</path>
+</svg>
+</a>
+</div>
+</aside>
+</main>
+<!--/$-->
+<script type="module" async="">import("/assets/main-ceCcH0b8.js")</script>
+<aside id="lovable-badge" role="complementary" dir="ltr" lang="en" aria-label="Edit with Lovable">
+	<a id="lovable-badge-cta" target="_blank" href="https://lovable.dev/projects/5852fcfe-da66-4387-99b9-c6033b8bd287?utm_source=lovable-badge" rel="noopener nofollow" aria-label="Edit with Lovable">
+		<span id="lovable-badge-text">Edit with</span>
+		<svg xmlns="http://www.w3.org/2000/svg" width="52" height="16" fill="none" viewBox="0 0 52 16">
+  <path fill="#FCFBF8" fill-rule="evenodd" d="M20.318 5.25c.643 0 1.206.14 1.69.418a2.81 2.81 0 0 1 1.118 1.191c.266.513.4 1.115.4 1.807s-.134 1.296-.4 1.812a2.81 2.81 0 0 1-1.118 1.193c-.484.278-1.047.418-1.69.418s-1.208-.14-1.695-.418a2.85 2.85 0 0 1-1.125-1.193c-.262-.516-.393-1.12-.393-1.812s.131-1.294.393-1.807a2.848 2.848 0 0 1 1.125-1.191c.487-.279 1.052-.418 1.695-.418Zm0 1.425c-.27 0-.504.076-.7.228-.193.147-.34.37-.443.67-.102.295-.153.66-.153 1.093 0 .435.05.801.153 1.1.102.3.25.524.443.676.196.147.43.22.7.22.27 0 .502-.073.694-.22.193-.152.341-.375.443-.67.103-.299.153-.667.153-1.106 0-.65-.112-1.145-.337-1.481a1.08 1.08 0 0 0-.953-.51ZM32.7 5.25c.61 0 1.127.1 1.549.3.422.197.74.48.953.849.217.368.325.809.325 1.32v2.704c0 .29.02.562.062.812.044.245.108.4.19.466V12h-1.935a5.895 5.895 0 0 1-.105-.684 7.745 7.745 0 0 1-.02-.228 2.293 2.293 0 0 1-.151.203c-.205.242-.47.437-.793.584-.32.143-.685.215-1.094.215-.406 0-.77-.08-1.094-.24a1.845 1.845 0 0 1-.756-.682 1.984 1.984 0 0 1-.27-1.045c0-.606.178-1.069.535-1.388.356-.324.87-.534 1.542-.633l1.125-.16c.225-.032.403-.074.534-.123a.622.622 0 0 0 .288-.196.549.549 0 0 0 .093-.327.65.65 0 0 0-.11-.367.702.702 0 0 0-.32-.27c-.14-.07-.31-.105-.51-.105-.32 0-.576.083-.768.251-.193.164-.298.39-.314.676h-1.923c.016-.434.147-.82.393-1.155.25-.34.596-.604 1.039-.792.442-.189.954-.283 1.535-.283Zm.99 3.498a.98.98 0 0 1-.215.14 2.49 2.49 0 0 1-.584.178l-.473.092c-.315.061-.553.156-.713.283-.155.127-.233.305-.233.534 0 .23.084.412.252.547.168.135.383.203.645.203s.494-.058.694-.173c.201-.118.355-.282.461-.49.11-.21.166-.448.166-.714v-.6Zm4.526-2.375c.065-.125.138-.243.221-.349.197-.25.437-.44.719-.571.282-.135.6-.203.952-.203.528 0 .988.138 1.377.412.389.275.688.67.896 1.186.21.512.314 1.12.314 1.824 0 .7-.107 1.309-.32 1.825-.213.512-.518.906-.915 1.18-.393.275-.854.412-1.383.412-.352 0-.667-.062-.946-.184a1.832 1.832 0 0 1-.7-.554 2.2 2.2 0 0 1-.234-.383V12h-1.843V3h1.862v3.373Zm1.284.296c-.274 0-.51.085-.707.253-.192.163-.338.397-.436.7a3.376 3.376 0 0 0-.148 1.05c0 .406.05.759.148 1.058.098.299.243.53.436.694.197.164.433.246.707.246.279 0 .512-.082.7-.246.193-.164.336-.395.43-.694.099-.3.148-.652.148-1.058 0-.405-.05-.757-.147-1.056-.095-.299-.238-.53-.43-.694a1.015 1.015 0 0 0-.7-.253Zm9.416-1.419c.602 0 1.136.131 1.604.393.466.262.829.643 1.086 1.143.263.5.394 1.097.394 1.794 0 .25-.002.449-.006.596H47.51c.018.288.071.538.164.75a1.3 1.3 0 0 0 .491.596c.214.13.465.196.757.196.319 0 .583-.082.792-.246.209-.167.34-.403.393-.706h1.862a2.48 2.48 0 0 1-.485 1.235 2.54 2.54 0 0 1-1.051.805c-.439.188-.949.283-1.53.283-.655 0-1.225-.125-1.708-.375a2.672 2.672 0 0 1-1.13-1.143c-.267-.508-.4-1.137-.4-1.887 0-.712.14-1.327.418-1.843a2.86 2.86 0 0 1 1.155-1.186c.491-.27 1.051-.405 1.678-.405Zm-.044 1.345c-.274 0-.516.068-.725.203a1.29 1.29 0 0 0-.479.59 2.045 2.045 0 0 0-.132.498h2.562a1.873 1.873 0 0 0-.138-.602 1.061 1.061 0 0 0-.418-.516 1.243 1.243 0 0 0-.67-.173Z" clip-rule="evenodd">
+</path>
+  <path fill="#FCFBF8" d="m26.605 9.995 1.342-4.566h1.924L27.628 12h-2.07l-2.33-6.57h1.98l1.397 4.565Zm-13.013.143h2.256c1.632 0 1.421 1.837 1.418 1.861h-5.603V3h1.93v7.138Zm31.516 1.861h-1.862V3h1.862v8.999Z">
+</path>
+  <path fill="url(#a)" fill-rule="evenodd" d="M2.7 3c1.492 0 2.7 1.192 2.7 2.663v1.012h.9c1.49 0 2.7 1.192 2.7 2.662S7.791 12 6.3 12H0V5.663C0 4.193 1.209 3 2.7 3Z" clip-rule="evenodd">
+</path>
+  <defs>
+    <radialGradient id="a" cx="0" cy="0" r="1" gradientTransform="matrix(-1.54236 7.07838 -10.231 -2.15602 4.627 5.022)" gradientUnits="userSpaceOnUse">
+      <stop offset=".106" stop-color="#FE7B02">
+</stop>
+      <stop offset=".394" stop-color="#FE3F21">
+</stop>
+      <stop offset=".608" stop-color="#F858BC">
+</stop>
+      <stop offset=".929" stop-color="#575ECF">
+</stop>
+    </radialGradient>
+  </defs>
+</svg>
+
+
+	</a>
+	
+	<span id="lovable-badge-divider" aria-hidden="true">
+</span>
+	
+	<button id="lovable-badge-close" aria-label="Dismiss" title="Dismiss" type="button">
+		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16" aria-hidden="true">
+			<path d="M10.646 4.646a.5.5 0 1 1 .707.708L8.707 8l2.646 2.646a.5.5 0 1 1-.707.707L8 8.707l-2.646 2.646a.5.5 0 1 1-.708-.707L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708L8 7.293l2.646-2.647Z">
+</path>
+		</svg>
+	</button>
+</aside>
+<script>
+	// Don't show the lovable-badge if the page is in an iframe or if it's being rendered by puppeteer (screenshot service)
+	if (window.self !== window.top || navigator.userAgent.includes('puppeteer')) {
+		// the page is in an iframe
+		var badge = document.getElementById('lovable-badge');
+		if (badge) {
+			badge.style.display = 'none';
+		}
+	}
+
+	// Add click event listener to close button with animation
+	var closeButton = document.getElementById('lovable-badge-close');
+	if (closeButton) {
+		closeButton.addEventListener('click', function(event) {
+			event.preventDefault();
+			event.stopPropagation();
+			var badge = document.getElementById('lovable-badge');
+			if (badge) {
+				badge.classList.add('closing');
+				setTimeout(function() {
+					if (badge) {
+						badge.style.display = 'none';
+					}
+				}, 240);
+			}
+		});
+	}
+</script>
+</body>
+</html>
